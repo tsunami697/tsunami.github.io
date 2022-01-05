@@ -2,7 +2,7 @@
 title: Qi Blog  #博客的标题
 SEOTitle: 祁厅长的博客 | Qi Blog
 header-img: img/post-bg-desk.jpg
-# email: tsunami697@gmail.com
+email: tsunami697@gmail.com
 description: "胜天半子"
 keyword: "Qi, Qi Blog, 祁厅长的博客, tsunami"
 url: "http://tsunami697.github.io"          # your host, for absolute URL
@@ -30,16 +30,16 @@ RSS: false
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# permalink: pretty
+# paginate: 10
+# exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+# anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+# gems: [jekyll-paginate]
 
 
 
