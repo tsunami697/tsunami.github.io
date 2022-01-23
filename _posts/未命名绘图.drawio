@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T07:05:52.117Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="0pUmMSh-iQqy5stRfNgz" version="16.4.5" type="github" pages="2"><diagram id="6a0Bi6d6h9jVSM5qxD7G" name="linux操作系统结构">1ZRBT4MwFIB/zTuaDDqBHcdkevG0qNHL0pWONhZKuk6Yv94yHjCyLHEHo3Jo2u+1fe3HS4Es8vre0FI86pQr8CdpDeQOfD+cEtc24IDAC1qQGZm2yBvASn5yhBOke5ny3Wii1VpZWY4h00XBmR0xaoyuxtO2Wo2zljTjZ2DFqDqnLzK1oqWRHw78gctMdJm9YNZGNpS9Z0bvC8wHPtkevzac024vvOhO0FRXJ4gkQBZGa9v28nrBVaO209auW16I9uc2vLDfWfBavW3Wdi43wTPJlFmzJ7a8wV0+qNqjD0hCmE1hHkESQBRBHEJyC/G8gUMobNooxlC0xCvaQ6f1KIY3qSdA4kpIy1clZU20cnXkmLC5ciPPdfEQ3FheX7yd1ztzpch1zq05uCndghlqxjL0AhxXw0/1Q2Ti5Id28yjWUdZvPbh0HdR5hVr/XO1fk9TX5q9Jmv4DSdHPSXLD4QE4xk4eWZJ8AQ==</diagram><diagram id="zYQj0PKgwb6zvEXt3iAd" name="内核模块关联">7ZnbjpswEIafZi53FTAH+xII7LbSSq1W6uGSBjdBIiECskn69LXBEMBuTruhSbs3kT2YMXz/ZOwxgLz55iELl7OnNKIJ6KNoA2gMum4biP1yw1YYNKsyTLM4qkzazvAc/6LCOBLWVRzRvDOwSNOkiJdd4yRdLOik6NjCLEvX3WE/06Q76zKcUsnwPAkT2fo1jopZZcW6vbM/0ng6q2fWLFJdmYf1YPEm+SyM0nXLhHxAXpamRdWabzyacHY1F9fcTr3PxHpIkw9+8Pjt6eM4u6ucBafc0rxCRhfF27rWK9cvYbISvMC3gFiAbfANcF1wLfBtcBFv84YLJAA/ANcDjL8Ez3VbUMuLbU0+S1eLiPLZR4Dc9Swu6PMynPCraxZqzDYr5gnraawpnoNmBd30hDvw1lojBQthms5pkW3ZfbUXS6gnwlcnor/eBUMzZtYKBFvYQhF/08b1jjFrCMwnIEdq5AjwuEQ+BuKpkNtAHMBGOdgrB5uAHXA03nA1wPrdneo+DO4IMCodGOBg7gD74JilgwAcdKXKoZ5ymqycOVIoZ1xKOUOhHKMbACl5M7S4avilKow3A29x3uxSpRNh6rLMYyXsWd0fGWtNi5KhZFF4Jvxe1+ANPOLRwMMlKD3LU1yjpMboiD8jVkiKLyWpqZDU5KLh8u/hMJb4OEmvkXc/+TX8DyU/61K8LZl3nxxdRA5f91lvkoR5Hk8YobwIs0I2txh2gTNq2fZbu/Odd+51s+6PN+2r463oVY9DI2lTcYwQbGsTZlO6b5yhFqyT02Q9altGk7CIX7rPphJJzPApjdlTN/GA9F48aD2d83SVTai4q72X6Duyu45QP2AqDpKjMmaa1z4/jOyBwuhV0fC3VG4WwH6WPVVlHZF7s+vKPE5nhjjctoYt+YB8zyPLM+HObpY1Kp9vGkbkPYxOSBbozDDqr/qSowsnizrJvcusVIe8UbYw8FDZQjHTENlCUxTL73H0p1Wn+de/ftU5dnfx+lUHkSHiSHUCQMAhvIoXRf0NFx1Suq8DoxWHzZnaIEWHpq7ynJIh5+yBY/GCmwF3/fKSUR6ASaLcBHCEZeCqovpyvBVVXhOzt4sZH8ZsD4pZUQXxYz+GWavP/7xboWuaV0ZXV+waea7QeLrYczR+lXT7KcJUHAQNm5PrF9uP9yphar2djolNCeawB9M6lmHu2Zku0gX95/afWj/E+x9wjt1/WviAowuXq0iReP53MfVzi4m+mJKjs8Vk3d2n32r47vs58n8D</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-23T07:08:36.625Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Mnaif6K8dYINrNgFbU_e" version="16.4.5" type="github" pages="2">
+  <diagram id="6a0Bi6d6h9jVSM5qxD7G" name="linux操作系统结构">
+    <mxGraphModel dx="743" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YwZb_tAib6V3glr_cUcF-1" value="用户应用程序" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="160" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YwZb_tAib6V3glr_cUcF-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="220" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YwZb_tAib6V3glr_cUcF-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="280" width="270" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zYQj0PKgwb6zvEXt3iAd" name="内核模块关联">
+    <mxGraphModel dx="743" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-0" />
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-1" parent="B5ygCQ96GolIEFHXMJDr-0" />
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-2" value="文件系统（VFS）" style="rounded=0;whiteSpace=wrap;html=1;" parent="B5ygCQ96GolIEFHXMJDr-1" vertex="1">
+          <mxGeometry x="160" y="290" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-3" value="操作系统的服务层--系统调用接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="B5ygCQ96GolIEFHXMJDr-1" vertex="1">
+          <mxGeometry x="130" y="210" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-4" value="进程管理模块&lt;br&gt;&lt;br&gt;进程间通信模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="B5ygCQ96GolIEFHXMJDr-1" vertex="1">
+          <mxGeometry x="400" y="290" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-5" value="内存管理模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="B5ygCQ96GolIEFHXMJDr-1" vertex="1">
+          <mxGeometry x="160" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="B5ygCQ96GolIEFHXMJDr-1" target="B5ygCQ96GolIEFHXMJDr-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="410" as="sourcePoint" />
+            <mxPoint x="370" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="B5ygCQ96GolIEFHXMJDr-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="290" as="sourcePoint" />
+            <mxPoint x="239.5" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="239.5" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="B5ygCQ96GolIEFHXMJDr-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="430" as="sourcePoint" />
+            <mxPoint x="400" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="B5ygCQ96GolIEFHXMJDr-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="290" as="sourcePoint" />
+            <mxPoint x="489.5" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="489.5" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="B5ygCQ96GolIEFHXMJDr-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="400" as="sourcePoint" />
+            <mxPoint x="239.5" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="239.5" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-13" value="驱动管理模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="B5ygCQ96GolIEFHXMJDr-1" vertex="1">
+          <mxGeometry x="400" y="440" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-15" value="字符设备驱动" style="rounded=0;whiteSpace=wrap;html=1;" parent="B5ygCQ96GolIEFHXMJDr-1" vertex="1">
+          <mxGeometry x="400" y="380" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-16" value="块设备驱动" style="rounded=0;whiteSpace=wrap;html=1;" parent="B5ygCQ96GolIEFHXMJDr-1" vertex="1">
+          <mxGeometry x="480" y="380" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-17" value="网络驱动" style="rounded=0;whiteSpace=wrap;html=1;" parent="B5ygCQ96GolIEFHXMJDr-1" vertex="1">
+          <mxGeometry x="550" y="380" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-20" value="硬件系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="B5ygCQ96GolIEFHXMJDr-1" vertex="1">
+          <mxGeometry x="400" y="500" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-21" value="硬件" style="rounded=0;whiteSpace=wrap;html=1;" parent="B5ygCQ96GolIEFHXMJDr-1" vertex="1">
+          <mxGeometry x="140" y="585" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-28" value="" style="endArrow=none;html=1;rounded=0;" parent="B5ygCQ96GolIEFHXMJDr-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="570" as="sourcePoint" />
+            <mxPoint x="680" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5ygCQ96GolIEFHXMJDr-30" value="" style="endArrow=none;html=1;rounded=0;" parent="B5ygCQ96GolIEFHXMJDr-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="680" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
