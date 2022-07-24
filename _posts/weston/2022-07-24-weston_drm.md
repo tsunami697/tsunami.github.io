@@ -1,3 +1,4 @@
+```
 WESTON-DRM(7)                                                                   Miscellaneous Information Manual                                                                  WESTON-DRM(7)
 
 NAME
@@ -136,3 +137,4 @@ SEE ALSO
        weston(1)
 
 Weston 8.0.0                                                                               2012-11-27                                                                             WESTON-DRM(7)
+```

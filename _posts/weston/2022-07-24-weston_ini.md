@@ -1,3 +1,4 @@
+```
 weston.ini(5)                                                                         File Formats Manual                                                                         weston.ini(5)
 
 NAME
@@ -401,3 +402,4 @@ SEE ALSO
        weston(1), weston-bindings(7), weston-drm(7), xkeyboard-config(7)
 
 Weston 8.0.0                                                                               2019-03-26                                                                             weston.ini(5)
+```
