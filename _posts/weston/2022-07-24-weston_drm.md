@@ -12,10 +12,15 @@ SYNOPSIS
 DESCRIPTION
        The DRM backend is the native Weston backend for systems that support the Linux kernel DRM, kernel mode setting (KMS), and evdev input devices.  It is the recommended backend for desk‐
        top PCs, and aims to provide the full Wayland experience with the "every frame is perfect" concept.  It also relies on the Mesa GBM interface.
+	   [DRM 依赖Mesa GBM 接口][evdev]
 
        With the DRM backend, weston runs without any underlying windowing system. The backend uses the Linux KMS API to detect connected monitors. Monitor hot-plugging is supported. Input de‐
        vices  are found automatically by udev(7).  Compositing happens mainly in GL ES 2, initialized through EGL. It is also possible to take advantage of hardware cursors and overlays, when
        they exist and are functional. Full-screen surfaces will be scanned out directly without compositing, when possible.  Hardware accelerated clients are supported via EGL.
+	   [借助DRM后端，weston在没有任何基础窗户系统的情况下运行]
+	   [后端使用Linux KMS API检测连接的监视器, 支持监视热插拔]
+	   [输入设备由udev自动发现]
+	   [合成主要发生在GL ES 2中，通过EGL初始化]
 
        The backend chooses the DRM graphics device first based on seat id.  If seat identifiers are not set, it looks for the graphics device that was used in boot. If that is not  found,  it
        finally chooses the first DRM device returned by udev(7).  Combining multiple graphics devices are not supported yet.
@@ -23,6 +28,7 @@ DESCRIPTION
        The  DRM  backend  relies on weston-launch for managing input device access and DRM master status, so that weston can be run without root privileges. On switching away from the virtual
        terminal (VT) hosting Weston, all input devices are closed and the DRM master capability is dropped, so that other servers, including Xorg(1), can run on other VTs. On  switching  back
        to Weston's VT, input devices and DRM master are re-acquired through the parent process weston-launch.
+	   [DRM后端依靠Weston-Launch来管理输入设备访问和DRM主状态，因此可以在没有root特权的情况下运行weston]
 
        The  DRM backend also supports virtual outputs that are transmitted over an RTP session as a series of JPEG images (RTP payload type 26) to a remote client. Virtual outputs are config‐
        ured in the remote-output section of weston.ini.

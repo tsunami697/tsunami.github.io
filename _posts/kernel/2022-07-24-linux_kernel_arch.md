@@ -188,6 +188,6 @@ https://github.com/tsunami697/linux-0.11/
 |ESP（中断的返回地址）|低地址|
 
 * trap.c分析
-trap_init
+  trap_init
     set_trap_gate 设置的权限高，只能由用户程序调用
     set_system_gate 设置的权限低，能由用户和系统所有的进程调用

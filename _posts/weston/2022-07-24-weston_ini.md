@@ -6,7 +6,7 @@ NAME
 
 INTRODUCTION
        Weston obtains configuration from its command line parameters and the configuration file described here.
-	   [weston从其命令行参数和此处描述的配置文件中获取配置。]
+	   [weston从命令行参数和此处描述的配置文件中获取配置。]
 
 DESCRIPTION
        Weston uses a configuration file called weston.ini for its setup.  The weston.ini configuration file is searched for in one of the following places when the server is started:
